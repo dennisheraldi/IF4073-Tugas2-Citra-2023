@@ -683,7 +683,7 @@ classdef app1_exported < matlab.apps.AppBase
 
             % Create nfilterorderforBLPFSpinner
             app.nfilterorderforBLPFSpinner = uispinner(app.PilihanFilterButtonGroup);
-            app.nfilterorderforBLPFSpinner.Limits = [1 30];
+            app.nfilterorderforBLPFSpinner.Limits = [1 100];
             app.nfilterorderforBLPFSpinner.Position = [697 44 59 22];
             app.nfilterorderforBLPFSpinner.Value = 1;
 
@@ -788,7 +788,7 @@ classdef app1_exported < matlab.apps.AppBase
 
             % Create nfilterorderforBHPFSpinner
             app.nfilterorderforBHPFSpinner = uispinner(app.PilihanFilterButtonGroup_2);
-            app.nfilterorderforBHPFSpinner.Limits = [1 30];
+            app.nfilterorderforBHPFSpinner.Limits = [1 100];
             app.nfilterorderforBHPFSpinner.Position = [385 44 59 22];
             app.nfilterorderforBHPFSpinner.Value = 1;
 
@@ -888,7 +888,7 @@ classdef app1_exported < matlab.apps.AppBase
 
             % Create nfilterorderforBLPFSpinner_2
             app.nfilterorderforBLPFSpinner_2 = uispinner(app.PengaturanFilterButtonGroup);
-            app.nfilterorderforBLPFSpinner_2.Limits = [1 30];
+            app.nfilterorderforBLPFSpinner_2.Limits = [1 100];
             app.nfilterorderforBLPFSpinner_2.Position = [394 40 59 22];
             app.nfilterorderforBLPFSpinner_2.Value = 1;
 
